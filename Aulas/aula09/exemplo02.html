@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cálculo do Peso Ideal</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row pt-5">
+      <div class="col-3">
+        <img src="imagens/01peso.jpg" alt="Cálcula peso" class="img-fluid">
+      </div>
+      <div class="col-9">
+        <h1>Programa Calcula Peso Ideal</h1>
+        <hr>
+        <form action="">
+          <p>Nome:
+            <input type="text" id="inNome" required></p>
+          <p>Sexo:
+            <input type="radio" name="sexo" id="inFeminino" required> Feminino
+            <input type="radio" name="sexo" id="inMasculino" required> Masculino
+          </p>
+          <p>Altura:
+            <input type="number" min="0" step="0.01" id="inAltura" required></p>
+          <input type="submit" value="Calcular peso ideal" class="btn btn-primary">  
+          <input type="reset" value="Limpar campos" class="btn btn-danger">
+        </form>
+        <h3></h3>
+      </div>
+    </div>
+  </div>
+  <script src="js/ex02.js"></script>
+</body>
+</html>
